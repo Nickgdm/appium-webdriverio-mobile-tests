@@ -1,6 +1,6 @@
 <pre>
 ╔═════════════════════════════════════════════════════════════════════════════════════════════════════════╗
-║                                 AUTOMAÇÃO MOBILE COM APPIUM E WEBDRIVERIO                               ║
+║                                AUTOMAÇÃO MOBILE COM APPIUM E WEBDRIVER.IO                               ║
 ╚═════════════════════════════════════════════════════════════════════════════════════════════════════════╝
 </pre>
 Projeto de estudo de automação de testes mobile para o Native Demo App, utilizando WebdriverIO e Appium.

@@ -1,31 +1,65 @@
-# Automação Mobile com Appium e WebdriverIO
+╔══════════════════════════════════════════════════════╗
+║         AUTOMAÇÃO MOBILE COM APPIUM E WEBDRIVERIO     ║
+╚══════════════════════════════════════════════════════╝
 
-Projeto de automação de testes mobile para o Native Demo App, desenvolvido como atividade prática da formação em Quality Assurance (QA) na EBAC.
+Projeto de estudo de automação de testes mobile para o Native Demo App, utilizando WebdriverIO e Appium.
 
-## Objetivo
-Automatizar um fluxo funcional em aplicativo Android e validar o comportamento de **Drag and Drop**.
+════════════════════════════════════════════════════════
+SOBRE O PROJETO
+════════════════════════════════════════════════════════
 
-## Tecnologias
+A atividade exercita a automação de um fluxo funcional em aplicativo Android, com foco na interação de arrastar e soltar (Drag and Drop).
+
+════════════════════════════════════════════════════════
+OBJETIVOS
+════════════════════════════════════════════════════════
+
+- Praticar a estruturação de testes automatizados para dispositivos móveis.
+- Configurar a comunicação entre WebdriverIO, Appium e o ambiente Android.
+- Localizar elementos de origem e destino.
+- Executar e validar uma interação de arrastar e soltar.
+
+════════════════════════════════════════════════════════
+TECNOLOGIAS E FERRAMENTAS
+════════════════════════════════════════════════════════
+
 - JavaScript
 - Node.js e npm
 - WebdriverIO
 - Appium
 - Native Demo App
 
-## Pré-requisitos
+════════════════════════════════════════════════════════
+PRÉ-REQUISITOS
+════════════════════════════════════════════════════════
+
 - Node.js e npm instalados.
 - Appium configurado e iniciado.
 - Ambiente Android configurado, com emulador ou dispositivo compatível.
-- Aplicativo Native Demo App disponível conforme as capabilities do projeto.
+- Native Demo App disponível conforme as capabilities do projeto.
 
-## Instalação e execução
+════════════════════════════════════════════════════════
+INSTALAÇÃO E EXECUÇÃO
+════════════════════════════════════════════════════════
+
+Instale as dependências:
+
 ```bash
 npm install
+```
+
+Execute o cenário de Drag and Drop:
+
+```bash
 npm test -- --spec ./test/specs/drag.spec.js
 ```
-Antes de executar, confira as capabilities e os caminhos definidos em `wdio.conf.js`, bem como os scripts de `package.json`.
 
-## Estrutura do projeto
+Antes de executar, confira as capabilities e os caminhos definidos em `wdio.conf.js`, além dos scripts configurados em `package.json`.
+
+════════════════════════════════════════════════════════
+ESTRUTURA DO PROJETO
+════════════════════════════════════════════════════════
+
 ```text
 atividade-appium-wdio/
 ├── test/
@@ -36,21 +70,42 @@ atividade-appium-wdio/
 └── README.md
 ```
 
-## Desafios práticos
-Configurar a comunicação entre WebdriverIO, Appium e o ambiente Android, localizar os elementos de origem e destino e executar o gesto de arrastar e soltar.
+════════════════════════════════════════════════════════
+DESAFIOS PRÁTICOS
+════════════════════════════════════════════════════════
 
-## Boas práticas adotadas
-- Configuração de execução centralizada.
-- Cenário de teste separado da configuração do runner.
-- Validação explícita do comportamento esperado.
+- Configurar a comunicação entre WebdriverIO, Appium e o ambiente Android.
+- Localizar os elementos de origem e destino da interação.
+- Executar o gesto de arrastar e soltar.
+- Validar o comportamento esperado no aplicativo.
 
-## 📚 Aprendizados
-A atividade permitiu praticar a estruturação de testes mobile com WebdriverIO e Appium, incluindo configuração do ambiente Android, localização de elementos e automação de gestos de interação como Drag and Drop.
+════════════════════════════════════════════════════════
+BOAS PRÁTICAS
+════════════════════════════════════════════════════════
 
-## Considerações finais
-A execução depende da configuração local do Appium, do Android e das capabilities definidas no projeto. Ajuste esses parâmetros ao seu dispositivo ou emulador antes de executar.
+- Centralizar a configuração de execução.
+- Manter o cenário separado da configuração do runner.
+- Validar explicitamente o comportamento esperado.
+- Conferir as capabilities e os requisitos do dispositivo antes da execução.
 
----
+════════════════════════════════════════════════════════
+APRENDIZADOS
+════════════════════════════════════════════════════════
 
-## 🎓 Formação
-Atividade desenvolvida durante a formação profissionalizante em **Quality Assurance (QA) pela EBAC — Escola Britânica de Artes Criativas e Tecnologia**.
+A atividade permite praticar a estruturação de testes mobile com WebdriverIO e Appium, incluindo a configuração do ambiente Android, a localização de elementos e a automação de gestos de interação como Drag and Drop.
+
+════════════════════════════════════════════════════════
+CONSIDERAÇÕES FINAIS
+════════════════════════════════════════════════════════
+
+A execução depende da configuração local do Appium, do Android e das capabilities definidas no projeto. Ajuste esses parâmetros ao dispositivo ou emulador utilizado antes de executar os testes.
+
+Este projeto tem finalidade educacional e não representa, por si só, experiência profissional.
+
+════════════════════════════════════════════════════════
+FORMAÇÃO E NATUREZA DA ATIVIDADE
+════════════════════════════════════════════════════════
+
+Este projeto foi desenvolvido como uma **atividade facultativa** no contexto dos estudos de Quality Assurance (QA), durante a formação da EBAC — Escola Britânica de Artes Criativas e Tecnologia. Seu objetivo é praticar e consolidar conhecimentos de automação de testes mobile.
+
+════════════════════════════════════════════════════════
